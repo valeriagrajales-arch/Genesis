@@ -1,0 +1,118 @@
+body 
+{
+  margin: 0;
+  background-color: #6d93a2 !important; 
+  font-family: "Poiret One", cursive;
+}
+
+#navv 
+{
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+#logo 
+{
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 90px;
+}
+
+#logoimg 
+{
+  width: 110px;
+}
+
+#links 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 140px;
+}
+
+a 
+{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.contenedor
+{
+  display: grid;
+  grid-template-columns: repeat(3, 300px); 
+  grid-gap: 35px; 
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cuadro 
+{
+  background-color: #0a2b3e;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden; 
+  font-weight: bold;
+  box-shadow: 0 6px 12px black;
+}
+
+.img-cuadro 
+{
+  width: 100%;
+  height: 260px; 
+  object-fit: cover;
+  display: block;
+}
+
+.subtitulo 
+{
+  background-color: #c3e3f0;
+  color: black;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+#footer 
+{
+  background-color: #0a2b3e; 
+  color: white;
+  padding: 40px 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Poiret One", sans-serif;
+}
+
+.footer-contenido
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo img 
+{
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.footer-logo h3 
+{
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.footer-derechos p 
+{
+  font-size: 14px;
+  color: #c3e3f0;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}

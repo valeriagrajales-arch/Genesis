@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <link rel="icon" href="img/logo-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <title>Carrito</title>
+</head>
+<body>
+    <header>
+    <nav id="navv">
+      <div id="logo">
+        <a href="index.html"><img src="/img/logo.png" alt="" id="logoimg"></a>
+      </div>
+
+      <ul id="links">
+        <li><a href="decoracion.html">DECORACIÓN</a></li>
+        <li><a href="cera.html">CERA DE MASAJES</a></li>
+        <li><a href="gel.html">VELAS DE GEL</a></li>
+        <li><a href="aromaterapia.html">AROMATERAPIA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main class="carrito">
+  <section class="items-list">
+    <h2>Productos Seleccionados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="producto-info">
+              <img src="img/decoracion1.jpg" class="producto-img">
+                <div>
+                  <h4>Vela Bubble</h4>
+                </div>
+            </td>
+            <td>$8.000</td>
+            <td>
+              <input type="number" value="1" min="1">
+            </td>
+            </tr>
+            <tr>
+            <td class="producto-info">
+              <img src="img/aroma2.jpg"  class="producto-img">
+                <div>
+                  <h4>Dúo playa</h4>
+                </div>
+            </td>
+            <td>$33.000</td>
+            <td>
+              <input type="number" value="2" min="1">
+            </td>
+            </tr>
+          </tbody>
+        </table>
+  </section>
+
+<aside class="suma">
+  <h2>Resumen del Pedido</h2>
+    <div class="sumalinea">
+      <p>
+        Subtotal: $74.000
+      </p>
+    </div>
+    <div class="sumalinea">
+      <p>
+        Envio: $5.000
+      </p>
+    </div>
+    <hr>
+    <div class="sumalineatotal">
+      <p>
+        Total a pagar: 79.000
+      </p>
+    </div>
+            
+    <button class="boton">
+      Proceder al Pago
+    </button>
+    <a href="index.html" class="continuar">Seguir Comprando</a>
+</aside>
+
+    </main>
+
+<footer id="footer">
+  <div class="footer-contenido">
+    <div class="footer-logo">
+      <img src="/img/logo-removebg-preview.png" alt="Logo Alma Kai">
+      <h3>Alma Kai</h3>
+    </div>
+
+    <div class="footer-derechos">
+      <p>© 2025 Alma Kai — Todos los derechos reservados</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
